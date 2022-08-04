@@ -17,7 +17,7 @@ function App() {
   }
 
   return(
-    <ThemeContext.Provider value={{ color: theme }}>
+    <ThemeContext.Provider value={{ backgroundColor: theme }}>
     Counter
     <Counter initialCount={0}/>
     CounterHooks
