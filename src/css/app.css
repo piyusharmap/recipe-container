@@ -1,0 +1,24 @@
+@import-normalize;
+@import './recipeList.css';
+@import './buttons.css';
+@import './recipe.css';
+@import './ingreadients.css';
+
+*, *::before, *::after{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1.2rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+}
+
+.mr-1{
+    margin-right: 5px;
+}

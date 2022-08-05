@@ -1,0 +1,16 @@
+.ingreadient-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 8px;
+    column-gap: 40px;
+    justify-content: flex-start ;
+}
+
+.ingreadient-label{
+    font-weight: 400;
+}
+
+.ingreadient-value{
+    font-weight: 300;
+    color: gray;
+}
