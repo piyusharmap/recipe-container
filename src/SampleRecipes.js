@@ -23,7 +23,7 @@ const sampleRecipes = [
         name: "Plain Pork",
         servings: 5,
         cookTime: '0:45',
-        instructions: "1. Put papriks on Pork\n2. Put Pork in oven\n3. Eat Pork",
+        instructions: "1. Put paprikas on Pork\n2. Put Pork in oven\n3. Eat Pork",
         ingreadients: [
             {
                 id: 1,

@@ -1,15 +1,16 @@
-import React from "react";
+import React, {useContext} from "react";
 import Recipe from "./Recipe";
-import SampleRecipes from "../SampleRecipes";
+import { RecipeContext } from "./App";
 
-export default function RecipeList(){
+export default function RecipeList({recipes}){
+    const {handleAddRecipe} = useContext(RecipeContext)
     return(
         <>
             <div className="recipe-list">
                 <div className="add-btn-container">
-                    <button className="btn btn--primary btn-add">Add Recipe</button>
+                    <button className="btn btn--primary btn-add" onClick={handleAddRecipe}>Add Recipe</button>
                 </div>
-                {SampleRecipes.map(recipe => {
+                {recipes.map(recipe => {
                 return <Recipe key={recipe.id} {...recipe}/>
                 })}
             </div>
