@@ -3,6 +3,7 @@
 @import './buttons.css';
 @import './recipe.css';
 @import './ingreadients.css';
+@import './recipeEdit.css';
 
 *, *::before, *::after{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

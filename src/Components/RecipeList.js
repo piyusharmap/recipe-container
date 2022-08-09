@@ -7,12 +7,12 @@ export default function RecipeList({recipes}){
     return(
         <>
             <div className="recipe-list">
-                <div className="add-btn-container">
-                    <button className="btn btn--primary btn-add" onClick={handleAddRecipe}>Add Recipe</button>
-                </div>
                 {recipes.map(recipe => {
                 return <Recipe key={recipe.id} {...recipe}/>
                 })}
+                <div className="add-btn-container">
+                    <button className="btn btn--primary btn-add" onClick={handleAddRecipe}>Add Recipe</button>
+                </div>
             </div>
         </>
     )
