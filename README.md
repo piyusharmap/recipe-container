@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Live Demo of site [Demo Live](https://cooking-app-with-react.netlify.app/)
 
 ## Available Scripts
 
